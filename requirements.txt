@@ -1,8 +1,14 @@
-colorama==0.4.6
-iniconfig==2.0.0
-numpy==2.0.0
-packaging==24.1
-pluggy==1.5.0
-pymba==0.3.7
-pytest==8.2.2
-python-snap7==2.0.0
+Package       Version
+------------- ---------
+colorama      0.4.6
+iniconfig     2.0.0
+numpy         2.0.0
+opencv-python 4.10.0.84
+packaging     24.1
+pillow        10.4.0
+pip           24.1.2
+pluggy        1.5.0
+pymba         0.3.7
+pytest        8.2.2
+python-opencv 1.0.0.14
+python-snap7  2.0.0
