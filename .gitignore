@@ -1,4 +1,4 @@
-# Created by pytest automatically.
+#Ignore all files in this directory
 *.jpg
 *.jpeg
 *.png
@@ -6,3 +6,5 @@
 *.bmp
 *.tiff
 *.svg
+
+/.pytest_cache
