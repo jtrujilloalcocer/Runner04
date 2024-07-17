@@ -1,0 +1,3 @@
+[
+  "tests/test_plc_connection.py::test_connect"
+]

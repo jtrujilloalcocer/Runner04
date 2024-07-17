@@ -1,0 +1,8 @@
+# Created by pytest automatically.
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg

@@ -1,0 +1,8 @@
+colorama==0.4.6
+iniconfig==2.0.0
+numpy==2.0.0
+packaging==24.1
+pluggy==1.5.0
+pymba==0.3.7
+pytest==8.2.2
+python-snap7==2.0.0
