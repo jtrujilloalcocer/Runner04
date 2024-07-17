@@ -1,0 +1,9 @@
+2024-07-17 11:17:52,393 - root - DEBUG - Loaded configuration: {'plc': {'ip': '192.168.0.100', 'rack': 0, 'slot': 0}}
+2024-07-17 11:17:52,407 - snap7.client - INFO - creating snap7 client
+2024-07-17 11:17:52,407 - snap7.client - INFO - connecting to 192.168.0.100:102 rack 0 slot 0
+2024-07-17 11:17:52,408 - snap7.client - DEBUG - setting param number 2 to 102
+2024-07-17 11:17:52,807 - snap7.common - DEBUG - error text for 0x2751
+2024-07-17 11:17:52,810 - snap7.common - ERROR - b' TCP : Unreachable peer'
+2024-07-17 11:17:52,811 - root - ERROR - Error connecting to PLC: b' TCP : Unreachable peer'
+2024-07-17 11:17:52,813 - root - ERROR - An error occurred: b' TCP : Unreachable peer'
+2024-07-17 11:17:52,826 - snap7.client - INFO - destroying snap7 client

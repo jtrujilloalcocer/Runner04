@@ -1,11 +1,23 @@
+import os
 import json
 import snap7
 from snap7.util import *
 from snap7.type import *
 import logging
 
-# Configurar el nivel de logging
-logging.basicConfig(level=logging.DEBUG)
+# Crear la carpeta de logs si no existe
+log_dir = 'logs'
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
+
+# Configurar el nivel de logging y el archivo de registro
+log_file = os.path.join(log_dir, 'plc_connection.log')
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                    handlers=[
+                        logging.FileHandler(log_file),
+                        logging.StreamHandler()
+                    ])
 
 class PLCConnection:
     def __init__(self, config_path='plc_control/config.json'):
@@ -57,8 +69,8 @@ class PLCConnection:
             return status
         except Exception as e:
             logging.error(f"Error getting PLC status: {e}")
-            return 'S7CpuStatusUnknown'  
-    
+            return 'S7CpuStatusUnknown'
+
 if __name__ == "__main__":
     try:
         plc = PLCConnection()
