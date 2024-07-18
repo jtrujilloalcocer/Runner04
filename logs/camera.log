@@ -1,70 +1,18 @@
-2024-07-17 13:13:16,114:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:13:16,316:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\Users\\TRJ1SAT\\source\\repos\\Runner04\\image\\nuts\\input\\20240717_131316.jpg'
-2024-07-17 13:13:53,342:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:13:53,523:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\Users\\TRJ1SAT\\source\\repos\\Runner04\\image\\nuts\\input\\20240717_131353.jpg'
-2024-07-17 13:14:35,201:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:15:39,696:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\Users\\TRJ1SAT\\source\\repos\\Runner04\\image\\nuts\\input\\20240717_131435.jpg'
-2024-07-17 13:16:20,148:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:16:20,347:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\image\\nuts\\input\\20240717_131620.png'
-2024-07-17 13:16:38,586:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:16:38,784:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\image\\nuts\\input\\20240717_131638.png'
-2024-07-17 13:17:48,573:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:17:49,825:INFO:Image saved successfully as 20240717_131748.png.
-2024-07-17 13:18:52,655:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:18:52,948:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\Users\\TRJ1SAT\\source\\repos\\Runner04\\images\\nuts\\input20240717_131852.png'
-2024-07-17 13:21:15,569:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:21:15,752:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\Users\\TRJ1SAT\\source\\repos\\Runner04\\images\\nuts\\input20240717_132115.png'
-2024-07-17 13:21:38,208:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:21:38,375:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\Users\\TRJ1SAT\\source\\repos\\Runner04\\images\\nuts\\input20240717_132138.png'
-2024-07-17 13:22:22,450:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:22:22,635:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\Users\\TRJ1SAT\\source\\repos\\Runner04\\images\\nuts\\input\\20240717_132222.png'
-2024-07-17 13:22:37,677:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:22:37,881:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\Users\\TRJ1SAT\\source\\repos\\Runner04\\images\\nuts\\input\\20240717_132237.png'
-2024-07-17 13:23:24,753:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:23:24,958:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\Users\\TRJ1SAT\\source\\repos\\Runner04\\images\\nuts\\input\\20240717_132324.png'
-2024-07-17 13:24:45,653:ERROR:Camera ID DEV_000F315D5D33 not found among available cameras.
-2024-07-17 13:25:15,143:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:25:15,329:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\Users\\TRJ1SAT\\source\\repos\\Runner04\\images\\nuts\\input\\20240717_132515.png'
-2024-07-17 13:25:39,313:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:25:39,518:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\Users\\TRJ1SAT\\source\\repos\\Runner04\\images\\nuts\\input\\20240717_132539.png'
-2024-07-17 13:29:24,934:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:29:25,101:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\Users\\TRJ1SAT\\source\\repos\\Runner04\\images\\nuts\\input\\20240717_132925.png'
-2024-07-17 13:30:35,186:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:30:35,338:ERROR:Failed to capture and save image: can only concatenate str (not "set") to str
-2024-07-17 13:31:22,086:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:31:22,252:ERROR:Failed to capture and save image: can only concatenate str (not "set") to str
-2024-07-17 13:31:39,579:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:31:39,735:ERROR:Failed to capture and save image: can only concatenate str (not "set") to str
-2024-07-17 13:32:45,440:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:32:45,607:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\camera\\images\\nuts\\input\\20240717_133245.png'
-2024-07-17 13:33:03,458:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:33:04,375:INFO:Image saved successfully as 20240717_133303.png.
-2024-07-17 13:39:50,574:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:39:50,744:ERROR:Failed to capture and save image: name 'Path' is not defined
-2024-07-17 13:40:59,303:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:41:52,125:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:41:53,002:INFO:Image saved successfully as C:\Users\TRJ1SAT\source\repos\Runner04\image\nuts\input\20240717_134152.png.
-2024-07-17 13:43:00,143:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:43:01,000:INFO:Image saved successfully as C:\Users\TRJ1SAT\source\repos\Runner04\image\nuts\input\20240717_134300.png.
-2024-07-17 13:44:14,604:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:47:21,135:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:47:22,047:INFO:Image saved successfully as C:\camera\image\nuts\input\20240717_134721.png.
-2024-07-17 13:47:50,444:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:47:51,314:INFO:Image saved successfully as C:\camera\image\nuts\input\20240717_134750.png.
-2024-07-17 13:48:06,317:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:48:07,235:INFO:Image saved successfully as C:\Users\TRJ1SAT\source\repos\Runner04\camera\image\nuts\input\20240717_134806.png.
-2024-07-17 13:50:19,967:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:50:20,769:INFO:Image saved successfully as C:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts\input\20240717_135020.png.
-2024-07-17 13:53:16,635:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:53:16,825:ERROR:Failed to capture and save image: [Errno 2] No such file or directory: 'C:\\images\\nuts\\input\\20240717_135316.png'
-2024-07-17 13:55:24,384:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:55:25,249:INFO:Image saved successfully as C:\Users\TRJ1SAT\source\repos\Runner04\20240717_135524.png.
-2024-07-17 13:56:01,634:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:56:02,532:INFO:Image saved successfully as C:\camera\20240717_135601.png.
-2024-07-17 13:57:06,925:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 13:57:07,737:INFO:Image saved successfully as C:\camera\20240717_135707.png.
-2024-07-17 14:03:05,110:ERROR:Camera ID DEV_000F315D5D33 not found among available cameras.
-2024-07-17 14:03:50,051:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 14:04:37,280:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 14:07:21,897:INFO:Camera DEV_000F315D5D33 opened successfully.
-2024-07-17 14:08:51,567:INFO:Camera DEV_000F315D5D33 opened successfully.
+2024-07-18 14:42:28,390:INFO:Camera ID DEV_000F315D5D33 for 'nuts' is available.
+2024-07-18 14:42:28,390:ERROR:Camera ID DEV_000F315D5D34 for 'pipes' not found among available cameras.
+2024-07-18 14:42:28,391:ERROR:Failed to capture and save image: 'Vimba' object has no attribute 'get_camera_by_id'
+2024-07-18 14:45:09,295:INFO:Camera ID DEV_000F315D5D33 for 'nuts' is available.
+2024-07-18 14:45:09,295:ERROR:Camera ID DEV_000F315D5D34 for 'pipes' not found among available cameras.
+2024-07-18 14:45:10,104:INFO:Image saved successfully as C:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts\input\20240718_144509.png.
+2024-07-18 14:47:02,242:INFO:Camera ID DEV_000F315D5D33 for 'nuts' is available.
+2024-07-18 14:47:02,242:ERROR:Camera ID DEV_000F315D5D34 for 'pipes' not found among available cameras.
+2024-07-18 14:47:03,025:INFO:Image saved successfully as C:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts\input\20240718_144702.png.
+2024-07-18 14:49:21,263:INFO:Camera ID DEV_000F315D5D33 for 'nuts' is available.
+2024-07-18 14:49:21,264:ERROR:Camera ID DEV_000F315D5D34 for 'pipes' not found among available cameras.
+2024-07-18 14:50:38,488:INFO:Image saved successfully as C:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts\input\20240718_145007.png.
+2024-07-18 14:55:23,170:INFO:Camera ID DEV_000F315D5D33 for 'nuts' is available.
+2024-07-18 14:55:23,171:ERROR:Camera ID DEV_000F315D5D34 for 'pipes' not found among available cameras.
+2024-07-18 14:55:23,969:INFO:Image saved successfully as C:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts\input\20240718_145523.png.
+2024-07-18 14:56:03,717:INFO:Camera ID DEV_000F315D5D33 for 'nuts' is available.
+2024-07-18 14:56:03,717:ERROR:Camera ID DEV_000F315D5D34 for 'pipes' not found among available cameras.
+2024-07-18 14:56:06,817:ERROR:Failed to capture and save image: The designated instance (camera, feature etc.) cannot be found.
