@@ -1,18 +1,91 @@
-2024-07-18 14:42:28,390:INFO:Camera ID DEV_000F315D5D33 for 'nuts' is available.
-2024-07-18 14:42:28,390:ERROR:Camera ID DEV_000F315D5D34 for 'pipes' not found among available cameras.
-2024-07-18 14:42:28,391:ERROR:Failed to capture and save image: 'Vimba' object has no attribute 'get_camera_by_id'
-2024-07-18 14:45:09,295:INFO:Camera ID DEV_000F315D5D33 for 'nuts' is available.
-2024-07-18 14:45:09,295:ERROR:Camera ID DEV_000F315D5D34 for 'pipes' not found among available cameras.
-2024-07-18 14:45:10,104:INFO:Image saved successfully as C:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts\input\20240718_144509.png.
-2024-07-18 14:47:02,242:INFO:Camera ID DEV_000F315D5D33 for 'nuts' is available.
-2024-07-18 14:47:02,242:ERROR:Camera ID DEV_000F315D5D34 for 'pipes' not found among available cameras.
-2024-07-18 14:47:03,025:INFO:Image saved successfully as C:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts\input\20240718_144702.png.
-2024-07-18 14:49:21,263:INFO:Camera ID DEV_000F315D5D33 for 'nuts' is available.
-2024-07-18 14:49:21,264:ERROR:Camera ID DEV_000F315D5D34 for 'pipes' not found among available cameras.
-2024-07-18 14:50:38,488:INFO:Image saved successfully as C:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts\input\20240718_145007.png.
-2024-07-18 14:55:23,170:INFO:Camera ID DEV_000F315D5D33 for 'nuts' is available.
-2024-07-18 14:55:23,171:ERROR:Camera ID DEV_000F315D5D34 for 'pipes' not found among available cameras.
-2024-07-18 14:55:23,969:INFO:Image saved successfully as C:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts\input\20240718_145523.png.
-2024-07-18 14:56:03,717:INFO:Camera ID DEV_000F315D5D33 for 'nuts' is available.
-2024-07-18 14:56:03,717:ERROR:Camera ID DEV_000F315D5D34 for 'pipes' not found among available cameras.
-2024-07-18 14:56:06,817:ERROR:Failed to capture and save image: The designated instance (camera, feature etc.) cannot be found.
+2024-07-19 14:29:16,309:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:29:17,287:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:29:17,744:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:29:17,744:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:29:17,744:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:34:00,272:ERROR:No cameras found.
+2024-07-19 14:34:23,253:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:34:24,245:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:34:24,700:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:34:24,700:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:34:24,700:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:35:38,181:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:35:39,147:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:35:39,582:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:35:39,582:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:35:39,582:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:36:45,836:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:36:46,797:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:36:47,249:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:36:47,249:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:36:47,249:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:37:17,326:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:37:18,277:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:37:18,736:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:37:18,737:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:37:18,737:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:37:29,653:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:37:30,672:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:37:31,116:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:37:31,116:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:37:31,116:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:38:13,561:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:38:14,581:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:38:15,053:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:38:15,053:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:38:15,053:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:38:15,890:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
+2024-07-19 14:39:29,119:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:39:30,084:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:39:30,535:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:39:30,535:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:39:30,535:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:39:31,368:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
+2024-07-19 14:40:31,702:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:40:32,660:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:40:33,110:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:40:33,110:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:40:33,110:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:40:33,944:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
+2024-07-19 14:40:54,426:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:40:55,400:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:40:55,868:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:40:55,868:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:40:55,868:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:40:56,705:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
+2024-07-19 14:41:34,476:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:41:35,450:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:41:35,896:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:41:35,896:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:41:35,896:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:41:36,749:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
+2024-07-19 14:42:46,450:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:42:47,403:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:42:47,869:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:42:47,869:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:42:47,870:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:42:48,726:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
+2024-07-19 14:44:04,963:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:44:05,940:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:44:06,385:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:44:06,385:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:44:06,385:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:44:07,234:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
+2024-07-19 14:44:31,116:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:44:32,090:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:44:32,544:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:44:32,544:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:44:32,544:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:44:33,377:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
+2024-07-19 14:45:49,620:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:45:50,592:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:45:51,061:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:45:51,062:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:45:51,062:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:45:51,875:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
+2024-07-19 14:47:25,820:INFO:Available cameras: ['DEV_000F315D5D33']
+2024-07-19 14:47:26,777:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
+2024-07-19 14:47:27,246:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
+2024-07-19 14:47:27,246:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
+2024-07-19 14:47:27,246:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
+2024-07-19 14:47:28,051:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
