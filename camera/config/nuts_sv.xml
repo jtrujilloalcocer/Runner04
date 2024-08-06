@@ -7,8 +7,8 @@
         <LoggingLevel Value="4" Description="All messages will be logged (Info, Error, Warning, Debug, Trace)" />
     </Logging>
 </SettingsStruct>
-<CameraSettings CameraID="DEV_000F315D60BA" CameraModel="Mako G-503B (6644)" FeatureCount="198">
-    <FeatureGroup Count="60">
+<CameraSettings CameraID="DEV_000F315D5D33" CameraModel="Mako G-503B (6644)" FeatureCount="198">
+    <FeatureGroup Count="68">
         <Feature Name="AcquisitionFrameCount" Type="Integer" Access="R/W">1</Feature>
         <Feature Name="AcquisitionMode" Type="Enumeration" Access="R/W">SingleFrame</Feature>
         <Feature Name="BandwidthControlMode" Type="Enumeration" Access="R/W">StreamBytesPerSecond</Feature>
@@ -18,9 +18,10 @@
         <Feature Name="BinningVerticalMode" Type="Enumeration" Access="R/W">Average</Feature>
         <Feature Name="BlackLevel" Type="Float" Access="R/W">4.000000</Feature>
         <Feature Name="BlackLevelSelector" Type="Enumeration" Access="R/W">All</Feature>
-        <Feature Name="DSPSubregionBottom" Type="Integer" Access="R/W">1574</Feature>
+        <Feature Name="ChunkModeActive" Type="Boolean" Access="R/W">False</Feature>
+        <Feature Name="DSPSubregionBottom" Type="Integer" Access="R/W">1944</Feature>
         <Feature Name="DSPSubregionLeft" Type="Integer" Access="R/W">0</Feature>
-        <Feature Name="DSPSubregionRight" Type="Integer" Access="R/W">1216</Feature>
+        <Feature Name="DSPSubregionRight" Type="Integer" Access="R/W">2592</Feature>
         <Feature Name="DSPSubregionTop" Type="Integer" Access="R/W">0</Feature>
         <Feature Name="DecimationHorizontal" Type="Integer" Access="R/W">1</Feature>
         <Feature Name="DecimationVertical" Type="Integer" Access="R/W">1</Feature>
@@ -36,13 +37,15 @@
         <Feature Name="GVCPCmdRetries" Type="Integer" Access="R/W">5</Feature>
         <Feature Name="GVCPCmdTimeout" Type="Integer" Access="R/W">250</Feature>
         <Feature Name="GVSPBurstSize" Type="Integer" Access="R/W">1</Feature>
+        <Feature Name="GVSPDriver" Type="Enumeration" Access="R/W">Filter</Feature>
         <Feature Name="GVSPMaxLookBack" Type="Integer" Access="R/W">30</Feature>
         <Feature Name="GVSPMaxRequests" Type="Integer" Access="R/W">1</Feature>
         <Feature Name="GVSPMaxWaitSize" Type="Integer" Access="R/W">100</Feature>
         <Feature Name="GVSPMissingSize" Type="Integer" Access="R/W">256</Feature>
+        <Feature Name="GVSPPacketSize" Type="Integer" Access="R/W">1500</Feature>
         <Feature Name="GVSPTiltingSize" Type="Integer" Access="R/W">100</Feature>
         <Feature Name="GVSPTimeout" Type="Integer" Access="R/W">70</Feature>
-        <Feature Name="Gain" Type="Float" Access="R/W">24.000000</Feature>
+        <Feature Name="Gain" Type="Float" Access="R/W">0.000000</Feature>
         <Feature Name="GainAuto" Type="Enumeration" Access="R/W">Off</Feature>
         <Feature Name="GainAutoAdjustTol" Type="Integer" Access="R/W">5</Feature>
         <Feature Name="GainAutoMax" Type="Float" Access="R/W">24.000000</Feature>
@@ -53,12 +56,17 @@
         <Feature Name="Gamma" Type="Float" Access="R/W">1.000000</Feature>
         <Feature Name="GevHeartbeatInterval" Type="Integer" Access="R/W">1450</Feature>
         <Feature Name="GevHeartbeatTimeout" Type="Integer" Access="R/W">3000</Feature>
-        <Feature Name="Height" Type="Integer" Access="R/W">1932</Feature>
+        <Feature Name="GevSCPSPacketSize" Type="Integer" Access="R/W">1500</Feature>
+        <Feature Name="Height" Type="Integer" Access="R/W">1944</Feature>
+        <Feature Name="MulticastEnable" Type="Boolean" Access="R/W">False</Feature>
+        <Feature Name="MulticastIPAddress" Type="Integer" Access="R/W">4026470193</Feature>
         <Feature Name="OffsetX" Type="Integer" Access="R/W">0</Feature>
         <Feature Name="OffsetY" Type="Integer" Access="R/W">0</Feature>
+        <Feature Name="PixelFormat" Type="Enumeration" Access="R/W">Mono8</Feature>
         <Feature Name="RecorderPreEventCount" Type="Integer" Access="R/W">0</Feature>
         <Feature Name="ReverseX" Type="Boolean" Access="R/W">False</Feature>
         <Feature Name="ReverseY" Type="Boolean" Access="R/W">False</Feature>
+        <Feature Name="SensorShutterMode" Type="Enumeration" Access="R/W">Rolling</Feature>
         <Feature Name="StreamBufferHandlingMode" Type="Enumeration" Access="R/W">Default</Feature>
         <Feature Name="StreamBytesPerSecond" Type="Integer" Access="R/W">115000000</Feature>
         <Feature Name="StreamFrameRateConstrain" Type="Boolean" Access="R/W">True</Feature>
@@ -68,7 +76,7 @@
         <Feature Name="StrobeDurationMode" Type="Enumeration" Access="R/W">Source</Feature>
         <Feature Name="StrobeSource" Type="Enumeration" Access="R/W">FrameTrigger</Feature>
         <Feature Name="SyncOutLevels" Type="Integer" Access="R/W">0</Feature>
-        <Feature Name="Width" Type="Integer" Access="R/W">1216</Feature>
+        <Feature Name="Width" Type="Integer" Access="R/W">2592</Feature>
     </FeatureGroup>
     <SelectorGroup Count="4" SelectedFeatures="16">
         <Selector Name="EventSelector" Type="Enumeration" SelectedFeatures="2">
@@ -122,7 +130,7 @@
         <Selector Name="TriggerSelector" Type="Enumeration" SelectedFeatures="11">
             <SelectorCombination Entry="FrameStart" Feature="TriggerMode" Type="Enumeration">On</SelectorCombination>
             <SelectorCombination Entry="FrameStart" Feature="TriggerSource" Type="Enumeration">Freerun</SelectorCombination>
-            <SelectorCombination Entry="FrameStart" Feature="ExposureTimeAbs" Type="Float">899.000000</SelectorCombination>
+            <SelectorCombination Entry="FrameStart" Feature="ExposureTimeAbs" Type="Float">686.000000</SelectorCombination>
             <SelectorCombination Entry="FrameStart" Feature="AcquisitionFrameRateAbs" Type="Float">14.073010</SelectorCombination>
             <SelectorCombination Entry="FrameStart" Feature="ExposureAutoMin" Type="Integer">31</SelectorCombination>
             <SelectorCombination Entry="FrameStart" Feature="ExposureAutoMax" Type="Integer">500000</SelectorCombination>
@@ -131,33 +139,32 @@
             <SelectorCombination Entry="FrameStart" Feature="TriggerDelayAbs" Type="Float">0.000000</SelectorCombination>
             <SelectorCombination Entry="AcquisitionStart" Feature="TriggerMode" Type="Enumeration">Off</SelectorCombination>
             <SelectorCombination Entry="AcquisitionStart" Feature="TriggerSource" Type="Enumeration">Line1</SelectorCombination>
-            <SelectorCombination Entry="AcquisitionStart" Feature="ExposureTimeAbs" Type="Float">899.000000</SelectorCombination>
+            <SelectorCombination Entry="AcquisitionStart" Feature="ExposureTimeAbs" Type="Float">686.000000</SelectorCombination>
             <SelectorCombination Entry="AcquisitionStart" Feature="AcquisitionFrameRateAbs" Type="Float">14.073010</SelectorCombination>
             <SelectorCombination Entry="AcquisitionStart" Feature="ExposureAutoMin" Type="Integer">31</SelectorCombination>
             <SelectorCombination Entry="AcquisitionStart" Feature="ExposureAutoMax" Type="Integer">500000</SelectorCombination>
             <SelectorCombination Entry="AcquisitionStart" Feature="TriggerActivation" Type="Enumeration">RisingEdge</SelectorCombination>
             <SelectorCombination Entry="AcquisitionEnd" Feature="TriggerMode" Type="Enumeration">Off</SelectorCombination>
             <SelectorCombination Entry="AcquisitionEnd" Feature="TriggerSource" Type="Enumeration">Line1</SelectorCombination>
-            <SelectorCombination Entry="AcquisitionEnd" Feature="ExposureTimeAbs" Type="Float">899.000000</SelectorCombination>
+            <SelectorCombination Entry="AcquisitionEnd" Feature="ExposureTimeAbs" Type="Float">686.000000</SelectorCombination>
             <SelectorCombination Entry="AcquisitionEnd" Feature="AcquisitionFrameRateAbs" Type="Float">14.073010</SelectorCombination>
             <SelectorCombination Entry="AcquisitionEnd" Feature="ExposureAutoMin" Type="Integer">31</SelectorCombination>
             <SelectorCombination Entry="AcquisitionEnd" Feature="ExposureAutoMax" Type="Integer">500000</SelectorCombination>
             <SelectorCombination Entry="AcquisitionEnd" Feature="TriggerActivation" Type="Enumeration">RisingEdge</SelectorCombination>
             <SelectorCombination Entry="AcquisitionRecord" Feature="TriggerMode" Type="Enumeration">On</SelectorCombination>
             <SelectorCombination Entry="AcquisitionRecord" Feature="TriggerSource" Type="Enumeration">Line1</SelectorCombination>
-            <SelectorCombination Entry="AcquisitionRecord" Feature="ExposureTimeAbs" Type="Float">899.000000</SelectorCombination>
+            <SelectorCombination Entry="AcquisitionRecord" Feature="ExposureTimeAbs" Type="Float">686.000000</SelectorCombination>
             <SelectorCombination Entry="AcquisitionRecord" Feature="AcquisitionFrameRateAbs" Type="Float">14.073010</SelectorCombination>
             <SelectorCombination Entry="AcquisitionRecord" Feature="ExposureAutoMin" Type="Integer">31</SelectorCombination>
             <SelectorCombination Entry="AcquisitionRecord" Feature="ExposureAutoMax" Type="Integer">500000</SelectorCombination>
             <SelectorCombination Entry="AcquisitionRecord" Feature="TriggerActivation" Type="Enumeration">RisingEdge</SelectorCombination>
         </Selector>
     </SelectorGroup>
-    <IgnoredFeatures Count="120">
+    <IgnoredFeatures Count="112">
         <Feature Name="AcquisitionAbort" Type="Command" Access="W"></Feature>
         <Feature Name="AcquisitionFrameRateLimit" Type="Float" Access="R"></Feature>
         <Feature Name="AcquisitionStart" Type="Command" Access="W"></Feature>
         <Feature Name="AcquisitionStop" Type="Command" Access="W"></Feature>
-        <Feature Name="ChunkModeActive" Type="Boolean" Access="R"></Feature>
         <Feature Name="DeviceFirmwareVersion" Type="String" Access="R"></Feature>
         <Feature Name="DeviceID" Type="String" Access="R"></Feature>
         <Feature Name="DeviceModelName" Type="String" Access="R"></Feature>
@@ -205,11 +212,9 @@
         <Feature Name="FirmwareVerBuild" Type="Integer" Access="R"></Feature>
         <Feature Name="FirmwareVerMajor" Type="Integer" Access="R"></Feature>
         <Feature Name="FirmwareVerMinor" Type="Integer" Access="R"></Feature>
-        <Feature Name="GVSPAdjustPacketSize" Type="Command" Access="R"></Feature>
-        <Feature Name="GVSPDriver" Type="Enumeration" Access="R"></Feature>
+        <Feature Name="GVSPAdjustPacketSize" Type="Command" Access="R/W"></Feature>
         <Feature Name="GVSPFilterVersion" Type="String" Access="R"></Feature>
         <Feature Name="GVSPHostReceiveBufferSize" Type="Integer" Access="None"></Feature>
-        <Feature Name="GVSPPacketSize" Type="Integer" Access="R"></Feature>
         <Selector Name="GainSelector" Type="Enumeration" SelectedFeatures="3"></Selector>
         <Feature Name="GevCurrentDefaultGateway" Type="Integer" Access="R"></Feature>
         <Feature Name="GevCurrentIPAddress" Type="Integer" Access="R"></Feature>
@@ -219,7 +224,6 @@
         <Feature Name="GevPersistentDefaultGateway" Type="Integer" Access="R"></Feature>
         <Feature Name="GevPersistentIPAddress" Type="Integer" Access="R"></Feature>
         <Feature Name="GevPersistentSubnetMask" Type="Integer" Access="R"></Feature>
-        <Feature Name="GevSCPSPacketSize" Type="Integer" Access="R"></Feature>
         <Feature Name="GevTimestampControlLatch" Type="Command" Access="W"></Feature>
         <Feature Name="GevTimestampControlReset" Type="Command" Access="W"></Feature>
         <Feature Name="GevTimestampTickFrequency" Type="Integer" Access="R"></Feature>
@@ -237,14 +241,10 @@
         <Feature Name="LUTSelector" Type="Enumeration" Access="R/W"></Feature>
         <Feature Name="LUTSizeBytes" Type="Integer" Access="R"></Feature>
         <Feature Name="LUTValue" Type="Integer" Access="R/W"></Feature>
-        <Feature Name="MulticastEnable" Type="Boolean" Access="R"></Feature>
-        <Feature Name="MulticastIPAddress" Type="Integer" Access="R"></Feature>
         <Feature Name="NonImagePayloadSize" Type="Integer" Access="R"></Feature>
         <Feature Name="PayloadSize" Type="Integer" Access="R"></Feature>
-        <Feature Name="PixelFormat" Type="Enumeration" Access="R"></Feature>
         <Feature Name="SensorBits" Type="Integer" Access="R"></Feature>
         <Feature Name="SensorHeight" Type="Integer" Access="R"></Feature>
-        <Feature Name="SensorShutterMode" Type="Enumeration" Access="R"></Feature>
         <Feature Name="SensorType" Type="Enumeration" Access="R"></Feature>
         <Feature Name="SensorWidth" Type="Integer" Access="R"></Feature>
         <Feature Name="StatFrameDelivered" Type="Integer" Access="R"></Feature>
@@ -269,7 +269,7 @@
         <Feature Name="SyncInLevels" Type="Integer" Access="R"></Feature>
         <Feature Name="TriggerSoftware" Type="Command" Access="W"></Feature>
         <Feature Name="UserSetDefaultSelector" Type="Enumeration" Access="R/W"></Feature>
-        <Feature Name="UserSetLoad" Type="Command" Access="R"></Feature>
+        <Feature Name="UserSetLoad" Type="Command" Access="R/W"></Feature>
         <Feature Name="UserSetSave" Type="Command" Access="None"></Feature>
         <Feature Name="UserSetSelector" Type="Enumeration" Access="R/W"></Feature>
         <Feature Name="WidthMax" Type="Integer" Access="R"></Feature>

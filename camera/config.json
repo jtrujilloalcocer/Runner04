@@ -1,14 +1,13 @@
 {
     "cameras": {
-      "test1": "DEV_000F315D5D33",
-      "test2": "DEV_000F315D5D34",
-      "nuts_sv": "DEV_000F315D60BA",	
-      "nuts_sabaf": "DEV_000F315D60BA"
+      "nuts_sabaf": "DEV_000F315D5D30",
+      "nuts_sv": "DEV_000F315D5D33",	
+      "codos": "DEV_000F315CF324"
     },
 
     "parameters": {
-      "nuts_sv": "/camera/config/nuts_sv.xml",
-      "nuts_sabaf": "/camera/config/nuts_sabaf.xml",
-      "test1": "camera/config/test1.xml"
+      "nuts_sv": "config/nuts_sv.xml",
+      "nuts_sabaf": "config/nuts_sabaf.xml",
+      "codos": "config/codos.xml"
       }
 }

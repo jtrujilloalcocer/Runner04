@@ -7,7 +7,7 @@
         <LoggingLevel Value="4" Description="All messages will be logged (Info, Error, Warning, Debug, Trace)" />
     </Logging>
 </SettingsStruct>
-<CameraSettings CameraID="DEV_000F315D60BA" CameraModel="Mako G-503B (6644)" FeatureCount="198">
+<CameraSettings CameraID="DEV_000F315D5D30" CameraModel="Mako G-503B (6644)" FeatureCount="198">
     <FeatureGroup Count="68">
         <Feature Name="AcquisitionFrameCount" Type="Integer" Access="R/W">1</Feature>
         <Feature Name="AcquisitionMode" Type="Enumeration" Access="R/W">SingleFrame</Feature>
@@ -19,9 +19,9 @@
         <Feature Name="BlackLevel" Type="Float" Access="R/W">4.000000</Feature>
         <Feature Name="BlackLevelSelector" Type="Enumeration" Access="R/W">All</Feature>
         <Feature Name="ChunkModeActive" Type="Boolean" Access="R/W">False</Feature>
-        <Feature Name="DSPSubregionBottom" Type="Integer" Access="R/W">1574</Feature>
+        <Feature Name="DSPSubregionBottom" Type="Integer" Access="R/W">1944</Feature>
         <Feature Name="DSPSubregionLeft" Type="Integer" Access="R/W">0</Feature>
-        <Feature Name="DSPSubregionRight" Type="Integer" Access="R/W">1216</Feature>
+        <Feature Name="DSPSubregionRight" Type="Integer" Access="R/W">2592</Feature>
         <Feature Name="DSPSubregionTop" Type="Integer" Access="R/W">0</Feature>
         <Feature Name="DecimationHorizontal" Type="Integer" Access="R/W">1</Feature>
         <Feature Name="DecimationVertical" Type="Integer" Access="R/W">1</Feature>
@@ -45,7 +45,7 @@
         <Feature Name="GVSPPacketSize" Type="Integer" Access="R/W">1500</Feature>
         <Feature Name="GVSPTiltingSize" Type="Integer" Access="R/W">100</Feature>
         <Feature Name="GVSPTimeout" Type="Integer" Access="R/W">70</Feature>
-        <Feature Name="Gain" Type="Float" Access="R/W">24.000000</Feature>
+        <Feature Name="Gain" Type="Float" Access="R/W">0.000000</Feature>
         <Feature Name="GainAuto" Type="Enumeration" Access="R/W">Off</Feature>
         <Feature Name="GainAutoAdjustTol" Type="Integer" Access="R/W">5</Feature>
         <Feature Name="GainAutoMax" Type="Float" Access="R/W">24.000000</Feature>
@@ -57,10 +57,10 @@
         <Feature Name="GevHeartbeatInterval" Type="Integer" Access="R/W">1450</Feature>
         <Feature Name="GevHeartbeatTimeout" Type="Integer" Access="R/W">3000</Feature>
         <Feature Name="GevSCPSPacketSize" Type="Integer" Access="R/W">1500</Feature>
-        <Feature Name="Height" Type="Integer" Access="R/W">1932</Feature>
+        <Feature Name="Height" Type="Integer" Access="R/W">1944</Feature>
         <Feature Name="MulticastEnable" Type="Boolean" Access="R/W">False</Feature>
         <Feature Name="MulticastIPAddress" Type="Integer" Access="R/W">4026470193</Feature>
-        <Feature Name="OffsetX" Type="Integer" Access="R/W">648</Feature>
+        <Feature Name="OffsetX" Type="Integer" Access="R/W">0</Feature>
         <Feature Name="OffsetY" Type="Integer" Access="R/W">0</Feature>
         <Feature Name="PixelFormat" Type="Enumeration" Access="R/W">Mono8</Feature>
         <Feature Name="RecorderPreEventCount" Type="Integer" Access="R/W">0</Feature>
@@ -76,7 +76,7 @@
         <Feature Name="StrobeDurationMode" Type="Enumeration" Access="R/W">Source</Feature>
         <Feature Name="StrobeSource" Type="Enumeration" Access="R/W">FrameTrigger</Feature>
         <Feature Name="SyncOutLevels" Type="Integer" Access="R/W">0</Feature>
-        <Feature Name="Width" Type="Integer" Access="R/W">1924</Feature>
+        <Feature Name="Width" Type="Integer" Access="R/W">2592</Feature>
     </FeatureGroup>
     <SelectorGroup Count="4" SelectedFeatures="16">
         <Selector Name="EventSelector" Type="Enumeration" SelectedFeatures="2">
@@ -130,7 +130,7 @@
         <Selector Name="TriggerSelector" Type="Enumeration" SelectedFeatures="11">
             <SelectorCombination Entry="FrameStart" Feature="TriggerMode" Type="Enumeration">On</SelectorCombination>
             <SelectorCombination Entry="FrameStart" Feature="TriggerSource" Type="Enumeration">Freerun</SelectorCombination>
-            <SelectorCombination Entry="FrameStart" Feature="ExposureTimeAbs" Type="Float">936.000000</SelectorCombination>
+            <SelectorCombination Entry="FrameStart" Feature="ExposureTimeAbs" Type="Float">686.000000</SelectorCombination>
             <SelectorCombination Entry="FrameStart" Feature="AcquisitionFrameRateAbs" Type="Float">14.073010</SelectorCombination>
             <SelectorCombination Entry="FrameStart" Feature="ExposureAutoMin" Type="Integer">31</SelectorCombination>
             <SelectorCombination Entry="FrameStart" Feature="ExposureAutoMax" Type="Integer">500000</SelectorCombination>
@@ -139,21 +139,21 @@
             <SelectorCombination Entry="FrameStart" Feature="TriggerDelayAbs" Type="Float">0.000000</SelectorCombination>
             <SelectorCombination Entry="AcquisitionStart" Feature="TriggerMode" Type="Enumeration">Off</SelectorCombination>
             <SelectorCombination Entry="AcquisitionStart" Feature="TriggerSource" Type="Enumeration">Line1</SelectorCombination>
-            <SelectorCombination Entry="AcquisitionStart" Feature="ExposureTimeAbs" Type="Float">936.000000</SelectorCombination>
+            <SelectorCombination Entry="AcquisitionStart" Feature="ExposureTimeAbs" Type="Float">686.000000</SelectorCombination>
             <SelectorCombination Entry="AcquisitionStart" Feature="AcquisitionFrameRateAbs" Type="Float">14.073010</SelectorCombination>
             <SelectorCombination Entry="AcquisitionStart" Feature="ExposureAutoMin" Type="Integer">31</SelectorCombination>
             <SelectorCombination Entry="AcquisitionStart" Feature="ExposureAutoMax" Type="Integer">500000</SelectorCombination>
             <SelectorCombination Entry="AcquisitionStart" Feature="TriggerActivation" Type="Enumeration">RisingEdge</SelectorCombination>
             <SelectorCombination Entry="AcquisitionEnd" Feature="TriggerMode" Type="Enumeration">Off</SelectorCombination>
             <SelectorCombination Entry="AcquisitionEnd" Feature="TriggerSource" Type="Enumeration">Line1</SelectorCombination>
-            <SelectorCombination Entry="AcquisitionEnd" Feature="ExposureTimeAbs" Type="Float">936.000000</SelectorCombination>
+            <SelectorCombination Entry="AcquisitionEnd" Feature="ExposureTimeAbs" Type="Float">686.000000</SelectorCombination>
             <SelectorCombination Entry="AcquisitionEnd" Feature="AcquisitionFrameRateAbs" Type="Float">14.073010</SelectorCombination>
             <SelectorCombination Entry="AcquisitionEnd" Feature="ExposureAutoMin" Type="Integer">31</SelectorCombination>
             <SelectorCombination Entry="AcquisitionEnd" Feature="ExposureAutoMax" Type="Integer">500000</SelectorCombination>
             <SelectorCombination Entry="AcquisitionEnd" Feature="TriggerActivation" Type="Enumeration">RisingEdge</SelectorCombination>
             <SelectorCombination Entry="AcquisitionRecord" Feature="TriggerMode" Type="Enumeration">On</SelectorCombination>
             <SelectorCombination Entry="AcquisitionRecord" Feature="TriggerSource" Type="Enumeration">Line1</SelectorCombination>
-            <SelectorCombination Entry="AcquisitionRecord" Feature="ExposureTimeAbs" Type="Float">936.000000</SelectorCombination>
+            <SelectorCombination Entry="AcquisitionRecord" Feature="ExposureTimeAbs" Type="Float">686.000000</SelectorCombination>
             <SelectorCombination Entry="AcquisitionRecord" Feature="AcquisitionFrameRateAbs" Type="Float">14.073010</SelectorCombination>
             <SelectorCombination Entry="AcquisitionRecord" Feature="ExposureAutoMin" Type="Integer">31</SelectorCombination>
             <SelectorCombination Entry="AcquisitionRecord" Feature="ExposureAutoMax" Type="Integer">500000</SelectorCombination>

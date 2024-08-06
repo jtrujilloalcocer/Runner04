@@ -1,91 +1,196 @@
-2024-07-19 14:29:16,309:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:29:17,287:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:29:17,744:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:29:17,744:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:29:17,744:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:34:00,272:ERROR:No cameras found.
-2024-07-19 14:34:23,253:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:34:24,245:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:34:24,700:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:34:24,700:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:34:24,700:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:35:38,181:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:35:39,147:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:35:39,582:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:35:39,582:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:35:39,582:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:36:45,836:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:36:46,797:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:36:47,249:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:36:47,249:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:36:47,249:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:37:17,326:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:37:18,277:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:37:18,736:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:37:18,737:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:37:18,737:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:37:29,653:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:37:30,672:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:37:31,116:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:37:31,116:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:37:31,116:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:38:13,561:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:38:14,581:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:38:15,053:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:38:15,053:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:38:15,053:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:38:15,890:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
-2024-07-19 14:39:29,119:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:39:30,084:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:39:30,535:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:39:30,535:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:39:30,535:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:39:31,368:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
-2024-07-19 14:40:31,702:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:40:32,660:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:40:33,110:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:40:33,110:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:40:33,110:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:40:33,944:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
-2024-07-19 14:40:54,426:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:40:55,400:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:40:55,868:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:40:55,868:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:40:55,868:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:40:56,705:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
-2024-07-19 14:41:34,476:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:41:35,450:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:41:35,896:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:41:35,896:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:41:35,896:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:41:36,749:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
-2024-07-19 14:42:46,450:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:42:47,403:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:42:47,869:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:42:47,869:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:42:47,870:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:42:48,726:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
-2024-07-19 14:44:04,963:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:44:05,940:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:44:06,385:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:44:06,385:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:44:06,385:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:44:07,234:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
-2024-07-19 14:44:31,116:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:44:32,090:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:44:32,544:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:44:32,544:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:44:32,544:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:44:33,377:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
-2024-07-19 14:45:49,620:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:45:50,592:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:45:51,061:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:45:51,062:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:45:51,062:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:45:51,875:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
-2024-07-19 14:47:25,820:INFO:Available cameras: ['DEV_000F315D5D33']
-2024-07-19 14:47:26,777:INFO:Settings loaded for camera DEV_000F315D5D33 from 'camera/config/test1.xml'
-2024-07-19 14:47:27,246:WARNING:Camera test2 with ID DEV_000F315D5D34 is not available
-2024-07-19 14:47:27,246:WARNING:Camera nuts_sv with ID DEV_000F315D60BA is not available
-2024-07-19 14:47:27,246:WARNING:Camera nuts_sabaf with ID DEV_000F315D60BA is not available
-2024-07-19 14:47:28,051:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Camera' object has no attribute 'open'
+2024-08-06 08:45:12,970:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 08:45:13,945:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 08:45:15,406:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 08:45:15,870:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 08:49:20,617:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Frame' object has no attribute 'save'
+2024-08-06 08:50:02,938:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 08:50:03,917:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 08:50:05,346:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 08:50:05,791:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 08:51:39,483:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Frame' object has no attribute 'save'
+2024-08-06 08:52:43,322:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 08:52:44,277:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 08:52:45,670:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 08:52:46,140:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 08:52:49,005:ERROR:Failed to capture image from camera DEV_000F315D5D33: Frame capturing on Camera 'DEV_000F315D5D33' timed out.
+2024-08-06 08:52:57,945:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 08:52:59,068:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 08:53:00,499:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 08:53:00,956:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 08:53:07,967:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Frame' object has no attribute 'save'
+2024-08-06 08:54:50,140:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 08:54:51,128:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 08:54:52,545:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 08:54:53,008:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 08:55:55,763:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 08:55:56,723:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 08:55:58,144:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 08:55:58,597:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:23:59,891:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30', 'DEV_000F315CF324']
+2024-08-06 11:24:00,856:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:24:02,448:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:24:50,519:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30', 'DEV_000F315CF324']
+2024-08-06 11:24:51,455:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:24:52,840:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:25:19,126:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30', 'DEV_000F315CF324']
+2024-08-06 11:25:20,154:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:25:21,526:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:27:06,199:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30', 'DEV_000F315CF324']
+2024-08-06 11:27:34,014:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:28:09,431:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:28:53,126:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 11:28:54,149:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:28:55,534:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:28:55,952:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:31:04,037:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 11:31:05,046:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:31:06,487:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:31:06,906:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:31:29,868:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 11:31:30,894:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:31:32,292:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:31:32,712:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:31:51,542:ERROR:Failed to capture image from camera DEV_000F315D5D33: Frame capturing on Camera 'DEV_000F315D5D33' timed out.
+2024-08-06 11:32:16,380:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 11:32:17,362:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:32:18,700:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:32:19,127:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:32:20,142:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Frame' object has no attribute 'buffer_data_numpy'
+2024-08-06 11:32:32,847:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 11:32:33,792:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:32:35,141:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:32:35,563:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:32:36,456:ERROR:Failed to capture image from camera DEV_000F315D5D33: 'Frame' object has no attribute 'buffer_data_numpy'
+2024-08-06 11:39:00,761:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 11:39:01,730:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:39:03,126:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:39:03,545:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:39:28,167:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 11:39:29,163:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:39:30,534:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:39:30,953:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:40:44,289:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 11:40:45,251:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:40:46,756:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:40:47,180:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:41:32,596:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 11:41:33,542:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:41:34,943:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:41:35,360:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:42:16,418:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 11:42:17,382:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:42:18,722:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:42:19,147:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:43:50,993:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 11:43:51,934:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:43:53,287:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:43:53,708:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:47:32,083:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 11:47:33,053:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:47:34,451:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:47:34,871:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:50:19,197:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 11:50:20,155:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:50:21,553:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:50:21,973:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:50:45,013:INFO:Image captured and saved to 'images\nuts\input\image_20240806_115021975559.png' from camera DEV_000F315D5D33
+2024-08-06 11:53:05,273:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 11:53:06,243:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:53:07,627:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:53:08,046:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:53:25,546:INFO:Image captured and saved to 'images\nuts\input\image_20240806_115308048924.png' from camera DEV_000F315D5D33
+2024-08-06 11:55:01,378:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 11:55:02,388:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 11:55:03,789:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 11:55:04,209:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 11:55:05,175:INFO:Image captured and saved to 'images\nuts\input\image_20240806_115504210690.png' from camera DEV_000F315D5D33
+2024-08-06 12:37:11,996:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 12:37:12,952:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 12:37:14,334:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 12:37:14,750:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 12:37:42,815:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 12:37:43,928:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 12:37:45,300:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 12:37:45,718:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 12:38:52,939:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 12:38:53,864:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 12:38:55,209:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 12:38:55,642:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 12:38:56,595:INFO:Image captured and saved to 'images\nuts\input\image_20240806_123855643623.png' from camera DEV_000F315D5D33
+2024-08-06 12:49:17,273:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 12:49:18,199:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 12:49:19,636:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 12:49:20,054:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 12:49:53,656:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 12:49:54,605:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 12:49:55,947:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 12:49:56,372:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 12:49:56,372:ERROR:Failed to capture image from camera nuts_sv: name 'camera_name' is not defined
+2024-08-06 12:50:11,126:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 12:50:12,062:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 12:50:13,396:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 12:50:13,827:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 12:50:13,827:ERROR:Failed to capture image from camera nuts_sv: name 'camera_name' is not defined
+2024-08-06 12:51:53,356:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 12:51:54,280:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 12:51:55,628:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 12:51:56,051:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 12:51:56,995:INFO:Image captured and saved to 'images\nuts\input\image_20240806_125156371419.png' from camera nuts_sv
+2024-08-06 12:52:13,020:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 12:52:13,946:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 12:52:15,306:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 12:52:15,727:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 12:52:16,682:INFO:Image captured and saved to 'images\nuts\input\image_20240806_125216048136.png' from camera nuts_sv
+2024-08-06 12:55:41,156:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 12:55:42,095:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 12:55:43,444:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 12:55:43,864:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 12:55:44,592:ERROR:Failed to capture image from camera nuts_sv: 'ImageProcessor' object has no attribute 'save_path'
+2024-08-06 12:56:07,659:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 12:56:08,584:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 12:56:09,939:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 12:56:10,357:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 12:59:11,827:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 12:59:12,781:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 12:59:14,134:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 12:59:14,554:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 13:00:33,113:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 13:00:34,093:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 13:00:35,445:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 13:00:35,861:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 13:00:36,822:INFO:Image captured and saved to 'images\nuts\input\image_20240806_130036185680.png' from camera nuts_sv
+2024-08-06 13:02:46,485:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 13:02:47,412:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 13:02:48,764:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 13:02:49,187:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 13:02:50,160:INFO:Image captured and saved to 'c:\Users\TRJ1SAT\source\repos\Runner04\camera\nuts\input\image_20240806_130249507864.png' from camera nuts_sv
+2024-08-06 13:04:43,194:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 13:04:44,127:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 13:04:45,487:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 13:04:45,904:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 13:04:46,883:INFO:Image captured and saved to 'c:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts_sv\input\image_20240806_130446234075.png' from camera nuts_sv
+2024-08-06 13:05:26,555:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 13:05:27,505:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 13:05:28,853:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 13:05:29,280:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 13:05:30,240:INFO:Image captured and saved to 'c:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts_sv\input\image_20240806_130529603823.png' from camera nuts_sv
+2024-08-06 13:05:45,192:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 13:05:46,134:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 13:05:47,490:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 13:05:47,909:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 13:05:48,874:INFO:Image captured and saved to 'c:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts_sv\input\image_20240806_130548235443.png' from camera nuts_sv
+2024-08-06 13:06:09,846:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 13:06:10,812:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 13:06:12,160:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 13:06:12,580:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 13:06:13,540:INFO:Image captured and saved to 'c:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts_sv\input\image_20240806_130612904606.png' from camera nuts_sv
+2024-08-06 13:06:49,733:INFO:Available cameras: ['DEV_000F315D5D33', 'DEV_000F315D5D30']
+2024-08-06 13:06:50,658:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 13:06:52,023:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 13:06:52,441:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 13:06:53,442:INFO:Image captured and saved to 'c:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts_sv\input\image_20240806_130652767307.png' from camera nuts_sv
+2024-08-06 13:16:11,806:INFO:Available cameras: ['DEV_000F315D5D30', 'DEV_000F315D5D33']
+2024-08-06 13:16:12,746:INFO:Settings loaded for camera DEV_000F315D5D30 from 'config/nuts_sabaf.xml'
+2024-08-06 13:16:14,151:INFO:Settings loaded for camera DEV_000F315D5D33 from 'config/nuts_sv.xml'
+2024-08-06 13:16:14,570:WARNING:Camera codos with ID DEV_000F315CF324 is not available
+2024-08-06 13:16:15,528:INFO:Image captured and saved to 'c:\Users\TRJ1SAT\source\repos\Runner04\camera\images\nuts_sv\input\image_20240806_131614892383.png' from camera nuts_sv
